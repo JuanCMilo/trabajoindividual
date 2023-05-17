@@ -1,0 +1,46 @@
+.Aboutme {
+  background-color: #ececec;
+  padding: 20px;
+
+  
+}
+
+p {
+  text-align: justify;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #181818;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  .Aboutme {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+
+  .Column1Aboutme {
+    grid-column: 1;
+    align-items: center;
+  }
+
+  
+
+  .columnaboutme2 {
+    grid-column: 2;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .columnaboutme3 {
+    grid-column: 3;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  p {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+}

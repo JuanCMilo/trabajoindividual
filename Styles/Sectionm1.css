@@ -1,0 +1,101 @@
+.WEncabezado {
+  font-family: sans-serif;
+  background-color: #ececec;
+  color: #000000;
+  display: grid;
+  margin: 0px;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+
+
+}
+
+.ImagenEncabezado {
+  background-image: url('../Image/cantante.png');
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  grid-column: 1;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+}
+
+.nameRedes {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: auto auto;
+
+}
+
+.ImagenNameAngelcanales {
+  background-image: url('../Image/firmaangelcanales.png');
+  background-size: contain;
+  background-position: bottom;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  display: grid;
+
+  grid-row: 1;
+  margin-left: 25px;
+
+}
+
+.social-buttons {
+  display: flex;
+  margin-right: 100px;
+
+
+  grid-row: 2;
+}
+
+.social-buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;  
+  height: 60px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-buttons a i {
+  color: #36C9FF;
+  font-size: 36px;
+ 
+}
+
+.social-buttons a:hover {
+  color: #999999;
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .ImagenEncabezado {
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .ImagenNameAngelcanales {
+    width: 300px;
+    height: 150px;
+  }
+
+  .social-buttons {
+    
+    margin-left: 50px;
+  }
+  
+  
+    
+  
+
+}

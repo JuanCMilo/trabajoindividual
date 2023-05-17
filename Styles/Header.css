@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+  .rightsectionHeader {
+    display: none;
+  }
+  body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: sans-serif;
+    background-color: #1BBDF7;
+    height:120px;
+    padding: 0 20px;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .centerHeader {
+   
+   align-items: center;
+   margin-left: 100px;
+   justify-content: space-between;
+  }
+  
+  .leftsectionheader {
+    background-image: url('../Image/el_angel.png') ;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    grid-column: initial;
+    margin-top: -20px ;
+    height: 110px;
+    background-repeat: no-repeat;
+    display: grid;
+    
+    gap: 10px;
+  }
+ 
+  .buttonh {
+    background-color: #00000000;
+    border: none;
+    color: #ececec;
+    
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 18px;
+  }
+  
+  .buttonh:hover {
+    background-color: #00000000;
+    color: rgb(78, 64, 94);
+  }
+
+
+  
+@media screen and (max-width: 600px) {
+ 
+  
+  header {
+    font-family: sans-serif;    
+    height:100px;
+    padding: 0 20px;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .leftsectionheader {
+    background-image: url('../Image/el_angel.png') ;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    grid-column: initial;
+    height: 110px;
+    background-repeat: no-repeat;
+    display: grid;
+    
+    gap: 10px;
+  }
+ 
+
+
+  .centerHeader {
+    display: none;
+  } 
+  
+  
+
+  .rightsectionHeader {
+    grid-column-end: span 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+  
