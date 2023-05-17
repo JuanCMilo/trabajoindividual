@@ -110,6 +110,7 @@
 }
 .slide-item {
   
-  margin-left: 80px;
+  margin-left: auto;
+  padding-right: 20%;
 }
 }
