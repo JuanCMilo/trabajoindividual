@@ -39,7 +39,6 @@
   height: 100px;
   background-repeat: no-repeat;
   display: grid;
-
   grid-row: 1;
   margin-left: 25px;
 
@@ -48,8 +47,6 @@
 .social-buttons {
   display: flex;
   margin-right: 100px;
-
-
   grid-row: 2;
 }
 
@@ -57,19 +54,19 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 60px;  
+  width: 60px;
   height: 60px;
   text-decoration: none;
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  cursor:pointer;
   transition: color 0.3s ease;
 }
 
 .social-buttons a i {
   color: #36C9FF;
   font-size: 36px;
- 
+
 }
 
 .social-buttons a:hover {
@@ -91,16 +88,16 @@
   }
 
   .social-buttons {
-    
+
     margin-left: 50px;
   }
-  
+
   .nameRedes {
-    
+
     margin-top: 50px;
-  
+
   }
-    
-  
+
+
 
 }
