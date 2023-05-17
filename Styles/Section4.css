@@ -1,11 +1,12 @@
 
 .contact{
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     align-items: center;
     
     display: grid;
     background-color: #1696C4;
     margin-top: 06px;
+    
     
 }
 
@@ -60,7 +61,7 @@
     width: 300px; 
     height: 200px; 
     align-items: center;
-    margin-left: 25%;
+    margin-left: 5%;
   }
   
   #miDiv img {
